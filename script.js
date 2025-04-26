@@ -11,6 +11,6 @@ function generateQuote() {
         "Tugasmu bukan untuk tahu bagaimana semuanya akan selesai. Tugasmu hanyalah untuk yakin dan terus melangkah.",
         "Allah tahu bila kau letih. Dia tahu bila kau hampir putus asa. Tapi Dia juga tahu kau mampu bertahan, sebab itu Dia uji.",
     ];
-    var randomIndex = Math.floor(Math.random()* quote.lenght);
+    var randomIndex = Math.floor(Math.random()* quotes.length);
     document.getElementById("quote").innerHTML = qoutes[randomIndex];
 }
