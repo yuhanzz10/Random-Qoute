@@ -12,5 +12,5 @@ function generateQuote() {
         "Allah tahu bila kau letih. Dia tahu bila kau hampir putus asa. Tapi Dia juga tahu kau mampu bertahan, sebab itu Dia uji.",
     ];
     var randomIndex = Math.floor(Math.random()* quotes.length);
-    document.getElementById("quote").innerHTML = qoutes[randomIndex];
+    document.getElementById("quote").innerHTML = quotes[randomIndex];
 }
